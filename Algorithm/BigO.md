@@ -8,7 +8,7 @@
 
 ### Common Big O Classifications:
 
-1. O(1) - Constant Time
+1. $O(1)$ - Constant Time
 
 **The execution speed remains the same regardless of the input size.Example: Accessing an element in an array by its index.**
 
