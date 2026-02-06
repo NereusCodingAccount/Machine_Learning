@@ -22,7 +22,7 @@ Result : '3'
 
 2. $O(n)$ - Linear Time
 
-**The execution speed grows proportionally with the size of the input $n$.Example: Simple search (Iterating through a list).**
+**The execution speed grows proportionally with the size of the input $n$ .Example: Simple search (Iterating through a list).**
 
 ex:
 
