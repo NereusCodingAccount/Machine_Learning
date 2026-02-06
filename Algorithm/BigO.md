@@ -1,17 +1,34 @@
+### ---English Version---
 
+# Big O (Time Complexity)
 
-fjflds
+## **Time Complexity = Computational Efficiency**
+
+## Understanding Time Complexity is Key to Improving Computational Efficiency
+
+### Common Big O Classifications:
+
+1. O(1) - Constant Time
+**The execution speed remains the same regardless of the input size.Example: Accessing an element in an array by its index.**
+
+2. $O(n)$ - Linear Time
+**The execution speed grows proportionally with the size of the input $n$.Example: Simple search (Iterating through a list).**
+
+3. $O(log n)$ - Logarithmic Time
+**The search space is halved with each step of the algorithm.Example: Binary Search.**
 
 
 ---
 
-### ---TW Version---
+### ---中文版---
 
 # Big O (時間複雜度)
 
 ## **時間複雜度 = 計算效率**
 
 ## 了解時間複雜度才能知道如何增加計算的效率
+
+### 基礎的 BigO :
 
 1. O(1) 陣列讀取
 
