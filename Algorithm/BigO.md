@@ -9,14 +9,54 @@
 ### Common Big O Classifications:
 
 1. O(1) - Constant Time
+
 **The execution speed remains the same regardless of the input size.Example: Accessing an element in an array by its index.**
 
+ex:
+
+```python
+im_list = ['1', '2', '3', '4', '5']
+print(im_list[2])
+```
+Result : '3'
+
 2. $O(n)$ - Linear Time
+
 **The execution speed grows proportionally with the size of the input $n$.Example: Simple search (Iterating through a list).**
 
+ex:
+
+```python
+im_list = ['1', '2', '3', '4', '5']
+for i in im_list:
+    if i == '3':
+        print(i)
+    else:
+        print('not 3')
+```
+
 3. $O(log n)$ - Logarithmic Time
+
 **The search space is halved with each step of the algorithm.Example: Binary Search.**
 
+```python
+Numbers = [5,17,33,41,55,61,80]
+Find = 55
+​
+low = 0
+high = len(Numbers) - 1
+​
+while low <= high:
+    mid = (low + high) // 2
+    if Numbers[mid] > Find:
+        high = mid - 1
+    elif Numbers[mid] < Find:
+        low = mid + 1
+    else:
+        break
+​
+print(mid)
+```
 
 ---
 
