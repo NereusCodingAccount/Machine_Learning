@@ -39,3 +39,28 @@ for i in im_list:
     else:
         print('not 3')
 ```
+
+3. O(log n) 二分搜尋法
+
+**每次搜尋都會排除一半可能性**
+
+```python
+Numbers = [5,17,33,41,55,61,80]
+Find = 55
+​
+low = 0
+high = len(Numbers) - 1
+​
+while low <= high:
+    mid = (low + high) // 2
+    if Numbers[mid] > Find:
+        high = mid - 1
+    elif Numbers[mid] < Find:
+        low = mid + 1
+    else:
+        break
+​
+print(mid)
+```
+![alt text](../picture/image.png)
+
